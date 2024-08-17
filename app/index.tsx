@@ -51,7 +51,7 @@ const estilo = StyleSheet.create({
   },
   text: {
     color: "black",
-    fontSize: 30,
+    fontSize: 25,
     fontFamily: "sanserifa",
     marginBottom: 10,
     textAlign: "left",
@@ -64,7 +64,6 @@ const estilo = StyleSheet.create({
     fontFamily: "sanserifa",
     marginBottom: 10,
     textAlign: "left",
-    marginLeft: 10, 
     fontWeight: "bold",
     textTransform: "uppercase",
     backgroundColor: "lightblue",

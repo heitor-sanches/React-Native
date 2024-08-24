@@ -25,6 +25,7 @@ const Style = StyleSheet.create({
     cardText: {
       fontSize: 18,
       color: '#333',
+      fontWeight:"bold"
     }
   });
 

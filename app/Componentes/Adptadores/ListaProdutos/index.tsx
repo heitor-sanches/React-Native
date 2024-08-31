@@ -2,9 +2,14 @@ import { ScrollView, View } from "react-native";
 import ItemProduto from "../ItemProduto";
 import Style from "@/app/Styles/Default";
 import Produto from "@/app/Models/Produto";
+import React from "react";
+
+interface PropListaProd{
+    produtos:Produto[];
+}
 
 
-function ListaProdutos({ produtos}:{produtos: Produto[]}) {
+const ListaProdutos:React.FC<PropListaProd> =({ produtos})=> {
     return (
     <ScrollView>
         <View style = {Style.container}>

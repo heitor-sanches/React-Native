@@ -1,7 +1,7 @@
 import Produto from "@/app/Models/Produto";
 import Style from "@/app/Styles/Default";
 import React from "react";
-import { Text, View } from "react-native";
+import { Image, Text, View } from "react-native";
 
 interface PropProd{
     produto:Produto,
@@ -14,6 +14,7 @@ return(
     <View style = {Style.card}>
         <Text style ={Style.cardText}>{produto.nome}</Text>
         <Text style = {Style.cardText}>{produto.preco}</Text>
+        <Image source = {{uri:produto.foto}} style={Style.image}></Image>
     </View>
 )
 

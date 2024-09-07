@@ -3,6 +3,7 @@ import { Text, View, StyleSheet, Button } from "react-native";
 import ListaProdutos from "./Componentes/Adptadores/ListaProdutos";
 import Style from "./Styles/Default";
 import axios from "axios";
+import CadastroProduto from "./Componentes/Adptadores/CadastroProduto";
 
 
 
@@ -29,6 +30,8 @@ function carregarProdutos(){
       <ListaProdutos produtos={produtos}></ListaProdutos>
 
       <Button title={`Clicado ${contador}`} onPress={clicarBotao}></Button>
+
+      <CadastroProduto></CadastroProduto>
 
 
     </View>
